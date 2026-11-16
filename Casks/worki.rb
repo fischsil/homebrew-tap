@@ -1,11 +1,11 @@
 cask "worki" do
-  version "0.4.13"
-  sha256 "ccf8e186d7d90dfdce2457e463bb945f2a188c2fc51c3fb0ae4bdd2aa16a3e32"
+  version "0.4.14"
+  sha256 "e88385a89c8722ccd9616a43ba2c917cc636125a6ebe3918b35d25c6bf5713dd"
 
-  url "https://github.com/silvanfischer/worki/releases/download/v#{version}/worki_#{version}_universal.dmg"
+  url "https://github.com/fischsil/worki/releases/download/v#{version}/worki_#{version}_universal.dmg"
   name "worki"
   desc "Run coding agents in parallel, each in its own git worktree and sandbox"
-  homepage "https://silvanfischer.github.io/worki/"
+  homepage "https://fischsil.github.io/worki/"
 
   livecheck do
     url :url
