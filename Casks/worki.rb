@@ -1,6 +1,6 @@
 cask "worki" do
-  version "0.5.6"
-  sha256 "f6336c976fee4471a8e76d1c9a478f9c0d15b013f6e68b8b1de3200ede2ae603"
+  version "0.5.7"
+  sha256 "1ec8eb0c72ed06ce37f452940b885e2a763c982595adaa52256f8f83d480b07d"
 
   url "https://github.com/fischsil/worki/releases/download/v#{version}/worki_#{version}_universal.dmg"
   name "worki"
